@@ -1,13 +1,16 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "hairdresser",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://paulybe.github.io/hairdresser_website/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
