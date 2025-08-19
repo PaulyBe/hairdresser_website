@@ -85,7 +85,9 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
+              <a href="home">
               <Scissors className="h-8 w-8 text-amber-500" />
+              </a>
               <span className="text-xl font-bold text-gray-900">Sara's Haar Studio</span>
             </div>
             
@@ -138,7 +140,7 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen flex items-center">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('https://images.pexels.com/photos/1319460/pexels-photo-1319460.jpeg??auto=compress&cs=tinysrgb&w=800')"
@@ -272,7 +274,7 @@ function App() {
       </section>
 
       {/* Contact Section */}
-      <section id="kontakt" className="py-20 bg-red-50">
+      <section id="kontakt" className="py-20 bg-gray-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -343,7 +345,7 @@ function App() {
               </div>
             </div>
 
-            <div className="bg-red-50 p-8 rounded-xl">
+            <div className="bg-gray-300 p-8 rounded-xl">
               <h3 className="text-2xl font-semibold text-gray-900 mb-6">Buche einen Termin</h3>
               <form className="space-y-6">
                 <div>
@@ -384,7 +386,7 @@ function App() {
                 
                 <div>
                   <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                    Ich m
+                    Ich möchte
                   </label>
                   <select 
                     id="service"
